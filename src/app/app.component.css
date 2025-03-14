@@ -1,6 +1,7 @@
-/* body {
-    background-image: url(../assets/Background-img.jpg);
+body {
+    background-image: url(assets/images/Background-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-} */
+    width: 100%;
+} 
