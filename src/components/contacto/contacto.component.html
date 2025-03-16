@@ -1,1 +1,35 @@
-<p>contacto works!</p>
+<div class="container d-flex justify-content-center mt-5 mb-5">
+        <div class="contenido pt-5 pb-5 px-4">
+            <p>Si deseas discutir un proyecto o tienes alguna pregunta ¡no dudes en contactarme!</p>
+     
+    <!-- Formulario de Contacto --> 
+     <!--procesar_formulario es el nombre que puse yo por el formulario donde esta escrito el programa para poder recibir los mensajes en contacto-->
+     <form action="https://formsubmit.co/f3925ff77a2424e8252b81ea1a31a6a0" method="POST" class="mt-4">
+        <div class="mb-3">
+            <label for="nombre" class="form-label" required>Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        
+        <div class="mb-3 mt-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" required>
+        </div>
+          
+        <div class="mb-3 mt-3">
+            <label for="email" class="form-label" required>Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        
+        <div class="mb-3 mt-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" name="mensaje" id="mensaje" rows="4" required></textarea>
+        </div>
+    
+        <div class="buton-submit mt-4 mb-">
+            <button type="submit">Enviar</button>
+         </div>
+    
+    </form>
+    </div>
+    
+    </div>
